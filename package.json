@@ -2,7 +2,7 @@
   "name": "learning-react",
   "version": "0.1.0",
   "private": true,
-  "home": "https://alialshammaa.github.io/Making-Site",
+  "homepage": "https://alialshammaa.github.io/Making-Site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
