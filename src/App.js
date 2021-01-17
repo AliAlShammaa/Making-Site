@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Header from "./Components/Header";
@@ -11,7 +11,7 @@ import ProductWindow from "./Components/productsWindow";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
